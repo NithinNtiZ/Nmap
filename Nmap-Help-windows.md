@@ -120,5 +120,27 @@
 # EXAMPLES:   
   nmap -v -A scanme.nmap.org   
   nmap -v -sn 192.168.0.0/16 10.0.0.0/8   
-  nmap -v -iR 10000 -Pn -p 80   
+  nmap -v -iR 10000 -Pn -p 80  
+
+  nmap -p 1-65535 192.168.1.1
+  
+  nmap -sP 192.168.1.1 ---- > ping scan
+  
+  nmap –top-ports 15 192.168.1.1 --- > scan top 15 port
+  
+  nmap —open 198.168.1.1 
+  
+  nmap -Pn --script vuln 192.168.1.1 ----> script to check vulna
+  
+  nmap -Pn -sV -O -v -d 192.168.1.111
+  
+  nmap -T4 -sS -sV -A  192.168.1.111
+  
+  nmap -D decoyIP tagrtIP
+  
+  namp --script vuln 192.168.1.111
+
+  -Pn ===== treat all host as alive 
+  
+  -sV ===== Probe open ports to determine service/version info 
 
