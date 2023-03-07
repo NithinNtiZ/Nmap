@@ -1,10 +1,10 @@
 #TARGET SPECIFICATION   
-  Can pass hostnames, IP addresses, networks, etc.
-  Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
-  -iL <inputfilename>: Input from list of hosts/networks
-  -iR <num hosts>: Choose random targets
-  --exclude <host1[,host2][,host3],...>: Exclude hosts/networks
-  --excludefile <exclude_file>: Exclude list from file
+  Can pass hostnames, IP addresses, networks, etc.   
+  Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254   
+  -iL <inputfilename>: Input from list of hosts/networks   
+  -iR <num hosts>: Choose random targets   
+  --exclude <host1[,host2][,host3],...>: Exclude hosts/networks   
+  --excludefile <exclude_file>: Exclude list from file   
 
 #HOST DISCOVERY:   
   -sL: List Scan - simply list targets to scan
